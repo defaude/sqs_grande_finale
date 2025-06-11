@@ -9,11 +9,11 @@
 
 ### Schritt 1: Repository vorbereiten
 
-1. Forke [das Übungsrepository](https://github.com/FlixFix/sqs_testing2) und klone es lokal auf deinen Rechner.
+1. Forke [das Übungsrepository](https://github.com/FlixFix/sqs_grande_finale) und klone deinen Fork lokal auf deinen Rechner.
 
 ```bash
-git clone https://github.com/dein-benutzername/dein-projekt-fork.git
-cd dein-repo
+git clone https://github.com/DEIN_GITHUB_BENUTZERNAME/sqs_grande_finale.git
+cd sqs_grande_finale
 ```
 
 2. Lege ein Verzeichnis `docs/` für die Dokumentation an:
