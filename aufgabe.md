@@ -56,10 +56,17 @@ make html
 
 Ergebnis: Die HTML-Dokumentation wird in `_build/html/` erstellt.
 
-Öffne z. B. `docs/_build/html/index.html` im Browser. Dies kannst du auch über die Konsole mit dem folgenden Befehl machen:
+Öffne z. B. `docs/_build/html/index.html` im Browser. Das kannst Du aus auch direkt aus der Konsole:
 
-```bash
+```shell
+# auf mac
 open docs/_build/html/index.html
+
+# auf linux
+xdg_open docs/_build/html/index.html
+
+# auf windows
+start docs/_build/html/index.html
 ```
 
 ### Schritt 5: Custom Theme installieren, damit alles bisschen schöner aussieht
@@ -182,7 +189,7 @@ Wenn du nun die folgenden Befehle ausführst, solltest du deine OpenAPI Spezifik
 
 ```bash
 make html
-open _build/html/index.html
+open _build/html/index.html # oder xdg_open oder start, je nach Betriebssystem
 ```
 
 ### Schritt 5: Commit und Push
