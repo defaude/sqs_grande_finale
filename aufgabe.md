@@ -64,7 +64,20 @@ open docs/_build/html/index.html
 
 ### Schritt 5: Custom Theme installieren, damit alles bisschen schöner aussieht
 
-Ändere den Eintrag html_theme in der Datei `docs/conf.py` zu folgendem Wert:
+
+In der Datei `docs/requirements.txt` (Falls diese noch nicht existiert, lege sie an):
+
+```
+furo
+```
+
+Dann lokal installieren:
+
+```bash
+pip install -r requirements.txt
+```
+
+Ändere den Eintrag html_theme in der Datei `docs/conf.py` so, dass das custom theme auch verwendet wird:
 
 ```
 html_theme = 'furo'
