@@ -56,7 +56,7 @@ make html
 
 Ergebnis: Die HTML-Dokumentation wird in `_build/html/` erstellt.
 
-Öffne z. B. `docs/_build/html/index.html` im Browser. Das kannst Du aus auch direkt aus der Konsole:
+Öffne z. B. `docs/_build/html/index.html` im Browser. Das kannst Du auch direkt aus der Konsole:
 
 ```shell
 # auf mac
